@@ -1,0 +1,87 @@
+.complete {
+  position: absolute;
+  top: 10%;
+  left: 43%;
+  margin-top: -80px;
+  margin-left: -80px;
+}
+
+.wrap {
+
+  color: rgb(0, 0, 0);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.column-2.carta {
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1rem;
+  row-gap: 1rem;
+}
+
+.plato-carta {
+  display: flex;
+  align-items: center;
+  border: 1px solid #000000;
+  border-radius: 6px;
+}
+
+.img-plato-carta {
+  display: flex;
+  flex-basis: 25%;
+  justify-content: center;
+}
+
+.img-plato-carta img {
+  max-width: 100px;
+  max-height: 75px;
+}
+
+.title-plato-carta {
+
+  border: 1px solid #000000;
+  border-bottom: none;
+  border-top: none;
+  flex-basis: 60%;
+  padding: 0 1rem;
+}
+
+.precio-plato-carta {
+  display: flex;
+  flex-basis: 15%;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.cantidad {
+  width: 30%;
+  justify-content: center;
+  font-size: 10pt;
+}
+
+
+button {
+  display: inline-block;
+  background-color: #8fa9ad;
+  color: black;
+  text-decoration: none;
+
+}
+
+button:hover {
+  background-color: #505488;
+}
+
+input {
+  display: inline-block;
+  background-color: #b3b9c2;
+  color: black;
+  text-decoration: none;
+
+}
+
+input:hover {
+  background-color: #abaed6;
+}
